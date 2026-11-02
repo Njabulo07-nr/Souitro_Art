@@ -1,0 +1,125 @@
+<!-- 
+Name: [Njabulo Rifumo Mthabini]
+Student No: [ST10520735]
+Module: Web Development
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Souitro's Art - Portraits, Comic Logos & Illustrations</title>
+    <meta name="description" content="Browse Souitro's cartoon portraits, comic-style logos and custom illustrations. Filter by category and enquire about any style.">
+    <meta name="keywords" content="art gallery, cartoon portraits, comic logos, pen illustrations, custom artwork">
+    <meta name="author" content="Souitro's Art">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Gallery | Souitro's Art - Portraits, Comic Logos & Illustrations">
+    <meta property="og:description" content="Browse Souitro's cartoon portraits, comic-style logos and custom illustrations. Filter by category and enquire about any style.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="css_assets/style.css">
+    <script src="js_assets/style.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header>
+        <img src="images/logo.png" width="180" height="120" alt="SOUITRO'S ART Logo" class="logo">
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+            <button class="hamburger" type="button" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>Welcome to SOUITRO'S ART Gallery</h1>
+        <p>Discover the world of art through the eyes of Souitro. Explore our gallery by category and click any artwork to enquire.</p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cartoon">Cartoon Portraits</button>
+            <button class="filter-btn" data-filter="logo">Comic Logos</button>
+            <button class="filter-btn" data-filter="custom">Custom Illustrations</button>
+        </div>
+
+        <div class="gallery-grid">
+            
+            <div class="art-card" data-category="cartoon" data-title="Cartoon Portrait">
+                <img src="images/pic 2.webp" alt="Loose pen-sketch portrait of a pensive cartoon monkey" loading="lazy">
+                <div class="card-info"><h3>CARTOON PORTRAITS</h3><p>R50-100 | 1-3 days | Gifts</p></div>
+            </div>
+            <div class="art-card" data-category="cartoon"><img src="images/pic 7.jpg" alt="Line-art cartoon of two characters hugging, surrounded by hearts" loading="lazy"><div class="card-info"><h3>Cartoon Portrait</h3><p>R50-100 | 1-3 days</p></div></div>
+            <div class="art-card" data-category="cartoon"><img src="images/pic 8.jpg" alt="Black-and-white tattoo-style illustration of a skeleton holding a rose" loading="lazy"><div class="card-info"><h3>Cartoon Portrait</h3><p>R50-100 | 1-3 days</p></div></div>
+            <div class="art-card" data-category="cartoon"><img src="images/pic 4.webp" alt="Detailed pen drawing of a cartoon character on paper, with pencils beside it" loading="lazy"><div class="card-info"><h3>Cartoon Portrait</h3><p>R50-100 | 1-3 days</p></div></div>
+            <div class="art-card" data-category="cartoon"><img src="images/pic 3.webp" alt="Pencil sketch of a cartoon plumber character in a cap, drawn in a sketchbook" loading="lazy"><div class="card-info"><h3>Cartoon Portrait</h3><p>R50-100 | 1-3 days</p></div></div>
+
+            <div class="art-card" data-category="logo" data-title="Comic Logo"><img src="images/comic 1.webp" alt="Pop-art comic portrait of a surprised blonde woman against a red and yellow burst" loading="lazy"><div class="card-info"><h3>COMIC-STYLE LOGOS</h3><p>R100-200 | 3-5 days | Brand Logos</p></div></div>
+            <div class="art-card" data-category="logo"><img src="images/comic 2.webp" alt="Comic-book illustration of a flying superhero with POW and BAM action lettering" loading="lazy"><div class="card-info"><h3>Comic Logo</h3><p>R100-200 | 3-5 days</p></div></div>
+            <div class="art-card" data-category="logo"><img src="images/comic 3.webp" alt="Six comic-style speech bursts reading Pow, Bang, Wow, Boom, New and Sale" loading="lazy"><div class="card-info"><h3>Comic Logo</h3><p>R100-200 | 3-5 days</p></div></div>
+            <div class="art-card" data-category="logo"><img src="images/comic 4.webp" alt="Bold comic-style logo reading Fine Comics with a hero silhouette" loading="lazy"><div class="card-info"><h3>Comic Logo</h3><p>R100-200 | 3-5 days</p></div></div>
+            <div class="art-card" data-category="logo"><img src="images/comic 5.webp" alt="Pink comic-style WOW burst logo with halftone dots" loading="lazy"><div class="card-info"><h3>Comic Logo</h3><p>R100-200 | 3-5 days</p></div></div>
+
+            <div class="art-card" data-category="custom" data-title="Custom Illustration"><img src="images/pic 1.webp" alt="Pen-and-ink landscape with a bright blue river winding past houses under a radiating sun" loading="lazy"><div class="card-info"><h3>CUSTOM ILLUSTRATIONS</h3><p>R200-500 | 5-7 days | Websites</p></div></div>
+            <div class="art-card" data-category="custom"><img src="images/pic 5.webp" alt="Pen drawing of a 3D city cracking through squared paper" loading="lazy"><div class="card-info"><h3>Custom Illustration</h3><p>R200-500 | 5-7 days</p></div></div>
+            <div class="art-card" data-category="custom"><img src="images/pic 6.jpeg" alt="Painted green mountain scene with a palm tree and flying birds" loading="lazy"><div class="card-info"><h3>Custom Illustration</h3><p>R200-500 | 5-7 days</p></div></div>
+            <div class="art-card" data-category="custom"><img src="images/pic 9.webp" alt="Black-and-white pencil portrait of a woman with long wavy hair" loading="lazy"><div class="card-info"><h3>Custom Illustration</h3><p>R200-500 | 5-7 days</p></div></div>
+            <div class="art-card" data-category="custom"><img src="images/pic 10.webp" alt="Colourful stylised illustration of a woman with flowers in her hair, with smaller variations beside it" loading="lazy"><div class="card-info"><h3>Custom Illustration</h3><p>R200-500 | 5-7 days</p></div></div>
+        </div>
+
+        <div class="video-container">
+            <video width="840" height="560" controls preload="metadata" playsinline aria-label="Souitro art process video">
+                <source src="videos/vid 1.mp4" type="video/mp4">
+                <p>Your browser does not support video playback.</p>
+            </video>
+        </div>
+        
+             <div class="contact-grid">
+            <form id="contactForm" class="contact-form" novalidate>
+                <h2>ORDER HERE</h2>
+                <div class="form-group">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="nameError">
+                    <span class="error-msg" id="nameError" role="alert"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number (optional)</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="082 123 4567" aria-describedby="phoneError">
+                    <span class="error-msg" id="phoneError" role="alert"></span>
+                </div>
+                <div class="form-group">
+                    <label for="artType">Type of artwork</label>
+                    <select id="artType" name="artType" required aria-describedby="artTypeError">
+                        <option value="">Choose one</option>
+                        <option value="Cartoon Portrait">Cartoon portrait (R50-100)</option>
+                        <option value="Comic Logo">Comic-style logo (R100-200)</option>
+                        <option value="Custom Illustration">Custom illustration (R200-500)</option>
+                    </select>
+                    <span class="error-msg" id="artTypeError" role="alert"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Describe your order</label>
+                    <textarea id="message" name="message" rows="5" required aria-describedby="messageError charCount"></textarea>
+                    <span id="charCount">0 / 20 characters minimum</span>
+                    <span class="error-msg" id="messageError" role="alert"></span>
+                </div>
+                <button type="submit" class="submit-btn">Send order</button>
+                <p id="formSuccess" class="success-msg" role="status"></p>
+            </form>
+    </main>
+
+    
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Artwork preview">
+        <button id="close-lightbox" type="button" aria-label="Close enlarged image">&times;</button>
+        <img id="lightbox-img" src="" alt="Enlarged artwork">
+        <div id="lightbox-info"></div>
+        <a href="contacts.html"><button id="enquire-btn">Enquire About This Style</button></a>
+    </div>
+
+    <footer><p>&copy; <span id="year"></span> SOUITRO'S ART.</p></footer>
+</body>
+</html>
